@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1001861814299",
+    "firebase_url": "https://four2floor-45d1c.firebaseio.com",
+    "project_id": "four2floor-45d1c",
+    "storage_bucket": "four2floor-45d1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001861814299:android:4c5ea2af37317d123d80be",
+        "android_client_info": {
+          "package_name": "com.example.four2floor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001861814299-7vc7jfkjpn7o2bhppdskpkqha0k7ilte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.four2floor",
+            "certificate_hash": "25020f6dda3a95ca281349c61f062c0da7358a3d"
+          }
+        },
+        {
+          "client_id": "1001861814299-hip33omridlo47tjbotthb7dcruf9966.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUIroD1YOuufTn2kAhY5nWkhNhWmaLwXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001861814299-hip33omridlo47tjbotthb7dcruf9966.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
