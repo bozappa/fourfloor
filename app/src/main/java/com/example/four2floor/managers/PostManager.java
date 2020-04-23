@@ -4,6 +4,7 @@ import android.content.Context;
 import android.util.Log;
 
 import com.example.four2floor.ApplicationHelper;
+import com.example.four2floor.managers.listeners.OnDataChangedListener;
 import com.example.four2floor.model.Post;
 
 public class PostManager {
@@ -33,8 +34,7 @@ public class PostManager {
         }
     }
 
-    //TODO: in progress
-//    public List<Post> getPosts() {
-//
-//    }
+    public void getPosts(OnDataChangedListener<Post> onDataChangedListener) {
+        ApplicationHelper.getDatabaseHelper().getPostList(onDataChangedListener);
+    }
 }
